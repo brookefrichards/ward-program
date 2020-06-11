@@ -1,0 +1,22 @@
+{
+  "name": "ward-program",
+  "version": "1.0.0",
+  "description": "Ward program website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brookefrandsen/ward-program.git"
+  },
+  "author": "Brooke Frandsen and Nick Richards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brookefrandsen/ward-program/issues"
+  },
+  "homepage": "https://github.com/brookefrandsen/ward-program#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
