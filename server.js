@@ -3,12 +3,16 @@
 const express = require('express');
 const app = express()
 const path = require("path")
+const getWardData = require('./ward-program-data');
+
 app.get("/ward-program", function (req, res) {
     res.sendFile(__dirname+"/index.html")
 })
 app.get('/', function (req, res) {
     res.send('Hello World')
 })
+
+app.get('/ward-program/data', getWardData);
 
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
