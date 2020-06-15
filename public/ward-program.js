@@ -9,10 +9,16 @@ function readJson() {
         .then(json => {
             document.getElementById('name').innerHTML = json.name;
             // TODO: do more DOM manipulation!
+        addList("name","","")
+        addList("thing", "end of stuff", "morestuff")
         })
         .catch(function () {
             this.dataError = true;
         })
+}
+
+function addList(idName, thing, ThirdThing) {
+    document.getElementById(idName).innerHTML = "test "+ "thing" + " "+ thing + " "+ ThirdThing
 }
 
 readJson();

@@ -16,7 +16,3 @@ const getData = function (req, res) {
 }
 
 module.exports = getData;
-
-function chapter(,) {
-    document.getElementById("").innerHTML 
-}
