@@ -17,6 +17,8 @@ function readJson() {
         })
 }
 
+// different functions that are used
+// STORED FUNCTIONS BUCKET
 function addList(idName, thing, ThirdThing) {
     document.getElementById(idName).innerHTML = "test "+ "thing" + " "+ thing + " "+ ThirdThing
 }
