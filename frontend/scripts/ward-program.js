@@ -1,3 +1,6 @@
+// TODO:
+// break this up into different functions
+
 function readJson() {
     fetch('/ward-program/data')
         .then(response => {
