@@ -1,0 +1,39 @@
+.page1 {
+margin: auto;
+width: 60%;
+text-align: center;
+}
+
+.picture1 {
+    display: block;
+    margin: auto;
+    max-width: 60%; 
+}
+
+.picture {
+    display: block;
+    margin: auto;
+    max-width: inherit;
+
+}
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: inherit;
+}
+
+#caption {
+    margin: auto;
+    width: inherit;
+    text-align: center;
+    font-style: italic;
+    padding: 1%;
+}
+
+.quote {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    text-align: center;
+}
