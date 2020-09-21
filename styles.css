@@ -1,17 +1,25 @@
 .page1 {
 margin: auto;
-width: 60%;
+width: 75%;
 text-align: center;
 }
 
 .picture1 {
     display: block;
     margin: auto;
-    max-width: 60%; 
+    max-width: 85%; 
+}
+
+p {
+    display: block;
+    margin: auto;
+    max-width: 75%; 
+    text-align: center;
+    padding: 10px;
 }
 
 .picture {
-    display: block;
+    display: inline;
     margin: auto;
     max-width: inherit;
 
@@ -36,4 +44,94 @@ text-align: center;
     margin: auto;
     max-width: 40%;
     text-align: center;
+}
+
+
+
+/* grid 1 designes */
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    max-width: 65%;
+}
+
+#wrapper>div {
+    background: darkgray;
+    /* margin: auto; */
+    padding: 45px;
+    text-align: left;
+}
+
+#wrapper>div:nth-child(even) {
+    background: darkgreen;
+    padding: 45px;
+    text-align: right;
+}
+
+
+/* grid 2 designes */
+#wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#wrapper2>div {
+    background: rgb(101, 101, 101);
+    /* margin: auto; */
+    padding: 45px;
+    text-align: left;
+}
+
+#wrapper2>div:nth-child(even) {
+    background: rgb(51, 116, 51);
+    padding: 45px;
+    text-align: right;
+}
+
+
+/* grid 3 designes */
+#wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#wrapper3>div {
+    background: rgb(133, 133, 133);
+    /* margin: auto; */
+    padding: 45px;
+    text-align: left;
+}
+
+#wrapper3>div:nth-child(even) {
+    background: rgb(133, 140, 0);
+    padding: 45px;
+    text-align: right;
+}
+
+
+/* grid 4 designes */
+#wrapper4 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#wrapper4>div {
+    background: darkgray;
+    /* margin: auto; */
+    padding: 45px;
+    text-align: left;
+}
+
+#wrapper4>div:nth-child(even) {
+    background: rgb(0, 77, 100);
+    padding: 45px;
+    text-align: right;
 }
