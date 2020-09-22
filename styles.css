@@ -50,24 +50,32 @@ p {
 
 /* grid 1 designes */
 #wrapper {
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    max-width: 65%;
 }
 
 #wrapper>div {
     background: darkgray;
-    /* margin: auto; */
     padding: 45px;
     text-align: left;
+    margin-left: 28%;
+    /* margin: auto; */
+    /* max-width: 50%; */
+
 }
 
 #wrapper>div:nth-child(even) {
     background: darkgreen;
     padding: 45px;
     text-align: right;
+    margin-right: 28%;
+    margin-left: 0px;
+    /* max-width: 100%; */
+    /* align-content: flex-end; */
+
 }
 
 
