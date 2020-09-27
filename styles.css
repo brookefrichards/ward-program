@@ -13,9 +13,13 @@ text-align: center;
 p {
     display: block;
     margin: auto;
-    max-width: 75%; 
+    max-width: 70%; 
     text-align: center;
     padding: 10px;
+}
+
+.p-title {
+    font-size: 3em;
 }
 
 .picture {
@@ -74,8 +78,6 @@ p {
     margin-right: 28%;
     margin-left: 0px;
     /* max-width: 100%; */
-    /* align-content: flex-end; */
-
 }
 
 
@@ -92,12 +94,15 @@ p {
     /* margin: auto; */
     padding: 45px;
     text-align: left;
+    margin-left: 28%;
 }
 
 #wrapper2>div:nth-child(even) {
     background: rgb(51, 116, 51);
     padding: 45px;
     text-align: right;
+    margin-right: 28%;
+    margin-left: 0px;
 }
 
 
@@ -122,6 +127,19 @@ p {
     text-align: right;
 }
 
+#wrapper3 > div:nth-child(1),
+#wrapper3 > div:nth-child(4), 
+#wrapper3 > div:nth-child(7), 
+#wrapper3 > div:nth-child(10) {
+    margin-left: 42%;
+}
+#wrapper3 > div:nth-child(3),
+#wrapper3 > div:nth-child(6),
+#wrapper3 > div:nth-child(9),
+#wrapper3 > div:nth-child(12) {
+    margin-right: 42%;
+}
+
 
 /* grid 4 designes */
 #wrapper4 {
@@ -142,4 +160,27 @@ p {
     background: rgb(0, 77, 100);
     padding: 45px;
     text-align: right;
+}
+
+#wrapper4 > div:nth-child(1),
+#wrapper4 > div:nth-child(4), 
+#wrapper4 > div:nth-child(7), 
+#wrapper4 > div:nth-child(10),
+#wrapper4 > div:nth-child(13),
+#wrapper4 > div:nth-child(16),
+#wrapper4 > div:nth-child(19),
+#wrapper4 > div:nth-child(22),
+#wrapper4 > div:nth-child(25) {
+    margin-left: 42%;
+}
+#wrapper4 > div:nth-child(3),
+#wrapper4 > div:nth-child(6), 
+#wrapper4 > div:nth-child(9), 
+#wrapper4 > div:nth-child(12),
+#wrapper4 > div:nth-child(15),
+#wrapper4 > div:nth-child(18),
+#wrapper4 > div:nth-child(21),
+#wrapper4 > div:nth-child(24),
+#wrapper4 > div:nth-child(27) {
+    margin-right: 42%;
 }
